@@ -79,7 +79,7 @@ sys.argv = [
 ## Arguments Explained
 
 - **collection**  
-  The Modrinth collection ID to download. This identifies the group of projects to fetch. To find this ID, navigate to the desired collection on the modrinth website and copy the unique ID located at the end of the URL: https://modrinth.com/collection/```J7JO9I99```
+  The Modrinth collection ID to download. This identifies the group of projects to fetch. To find this ID, navigate to the desired collection on the modrinth website and copy the unique ID located at the end of the URL (e.g. J7JO9I99 in https://modrinth.com/collection/J7JO9I99)
 
 - **version**  
   The target Minecraft version (e.g., `1.21.8`). Used to filter compatible project versions.
@@ -87,7 +87,7 @@ sys.argv = [
 - **loader**  
   The loader type (e.g., `fabric`, `forge`). Ensures compatibility with your modding environment.
 
-- **fallback_bound** *(optional)*  
+- **fallback_bound** 
   A lower version bound to fall back to if no exact match is found. Helps maintain compatibility when newer versions are unavailable. (For example, most mods from 1.21.6 and 1.21.7 are compatible with 1.21.8. Thus, you'd want to set the fallback bound to 1.21.6) Fallback versions are not downloaded automatically. Confirmation will be asked before each one.
 
 ---
