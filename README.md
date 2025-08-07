@@ -52,8 +52,6 @@ Place script in the same folder as your mods folder.
 
 No external dependencies are required beyond standard Python libraries.
 
----
-
 ## Usage Overview
 
 Although the script includes command-line argument parsing, these values are overridden internally. You should modify the script directly to set your desired parameters.
@@ -65,8 +63,6 @@ python modrinth_collection_downloader.py
 ```
 
 Downloaded projects will be saved in their corresponding folders located alongside ```modrinth_collection_downloader.py```
-
----
 
 ## Script Configuration
 
@@ -81,8 +77,6 @@ sys.argv = [
 ]
 ```
 
----
-
 ## Arguments Explained
 
 - **collection**  
@@ -96,6 +90,8 @@ sys.argv = [
 
 - **fallback_bound** *(optional)*  
   A lower version bound to fall back to if no exact match is found. Helps maintain compatibility when newer versions are unavailable. (For example, most mods from 1.21.6 and 1.21.7 are compatible with 1.21.8. Thus, you'd want to set the fallback bound to 1.21.6) Fallback versions are not downloaded automatically. Confirmation will be asked before each one.
+
+---
 
 ## How It Works
 
