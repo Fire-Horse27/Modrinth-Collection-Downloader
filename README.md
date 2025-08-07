@@ -40,8 +40,7 @@ The Modrinth Collection Downloader is a Python-based tool designed to automate t
 Download the Python script directly from the repository:
 
 ```bash
-git clone https://github.com/your-repo/modrinth-collection-downloader.git
-cd modrinth-collection-downloader
+curl -L -o modrinth_collection_downloader.py https://raw.githubusercontent.com/Fire-Horse27/Modrinth-Collection-Downloader/main/modrinth_collection_downloader.py
 ```
 
 Or copy and paste the code into a local python file.
